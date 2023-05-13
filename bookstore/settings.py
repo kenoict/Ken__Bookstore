@@ -98,7 +98,7 @@ DATABASES = {
     }
 }
 """
-'''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -114,6 +114,7 @@ import dj_database_url
 DATABASES ={
     'default': dj_database_url.parse('postgres://ken_yqv1_user:I7waNQ39bx3UtNyhEcGbPksJoWoYA3vI@dpg-ch5negorddl7alc9m3v0-a.oregon-postgres.render.com/ken_yqv1')
 }
+'''
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
