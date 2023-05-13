@@ -106,10 +106,11 @@ DATABASES = {
     }
 }
     }
-    '''
+  
   #postgresql database
     
 # render postgresql database (live)
+'''
 import dj_database_url
 DATABASES ={
     'default': dj_database_url.parse('postgres://ken_yqv1_user:I7waNQ39bx3UtNyhEcGbPksJoWoYA3vI@dpg-ch5negorddl7alc9m3v0-a.oregon-postgres.render.com/ken_yqv1')
